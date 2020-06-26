@@ -1,0 +1,63 @@
+/*Write CSS here- plus this is how to comment in CSS (CSS is a stylistic language) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&family=Notable&display=swap');
+
+/*What we are selecting*/
+h1 {
+	/*How to style it*/
+	font-family: "Notable";
+	font-size:50px;
+	border: 5px solid;
+	/* This determines how bold or light a font can be: font-weight: 200;*/
+}
+body {
+	background-color: #FF3399;
+	color: white;
+	/* This determines the font for the background/main body text;*/
+	font-family: "Montserrat Alternates";
+}
+
+img {
+	height: 500px;
+	/* This determines how curved the image edges should be: 200;*/
+	border-radius: 35%; 
+}
+/* This determines the positioning of the text/image: 200;*/
+#container {
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+button {
+	/* Margin and Padding affect spacing for the button- implements more space in the inside/outside of button text*/
+	margin: 30px auto 0;
+	padding: 20px 25px;
+	background-color:#FF3399;
+	color: white;
+	font-family: "Montserrat Alternates";
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid white;
+	/* This determines the text and makes it all CAPTIALIZED*/
+	text-transform: uppercase;
+	text-decoration: none;
+	/* This determines how spacious the text is within the button;*/
+	letter-spacing: 3px;
+	outline: none;
+	
+
+}
+/* This determines the ability for the mouse cursor to hover over the button;*/
+button:hover {
+	/* This determines how slow/fast the hovering takes place- slower hover lokks cleaner(stylistically) */
+	transition: 0.3s;
+	background-color: white;
+	color:#FF3399;
+
+}
+/* This determines the font-size for the remaining text in the paragraph*/
+p {
+	font-size: 15px;
+}
